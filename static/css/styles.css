@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.show-title {
+    font-size: 1.3em;
+}
+
+.show-header {
+    width: 100%;
+}

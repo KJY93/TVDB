@@ -1,0 +1,19 @@
+{{#if hasContent}}
+    <div class="row">
+        {{#each recs}}
+            <div class="col-sm-12 col-md-3 mb-4">
+                <div class="card-deck h-100">
+                    <div class="card">
+                        <a class="text-center" href="/shows/{{ this.tvid }}">
+                            <img class="card-img-top" src="{{ this.image }}" alt={{ this.name }} />{{ this.name }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+{{else}}
+    <div class="text-center">
+        Sorry! No result was found!
+    </div>
+{{/if}}
